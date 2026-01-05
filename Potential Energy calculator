@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main() {
+  
+double m;
+double h;
+double g =9.8 ;
+std::cout << "Let's calculate the potential energy of an object\n";
+std::cout << "Enter the Mass of an object:";
+std::cin >> m ;
+std::cout << "Now, Enter the the Altitude of that object:";
+std::cin >> h ;
+double p = m*g*h ;
+std::cout << "The potential energy of that object is "<< p <<"J.\n";
+}
+
