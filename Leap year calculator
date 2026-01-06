@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+ int year;
+ std::cout << "Enter a four-digit year\n";
+ std::cin  >> year;
+ if (year > 999 && year > 10000)
+  {
+    if (year % 4 == 0 )
+    {
+      std::cout << "The year is a leap year\n"; 
+    }
+    else 
+    {
+      std::cout << "The year is not a leap year\n";
+    }
+  }
+  else
+  {
+    std::cout << "Year invalid\n";
+  }
+}
+
